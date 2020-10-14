@@ -16,7 +16,7 @@ namespace ConvertitoreDecimaleBinario
                 decimale = decimale / 2;
                 numbinario = Convert.ToString(resto) + numbinario;
             }
-            Console.WriteLine($"il numero binario convertito è  {numbinario} ");
+            Console.WriteLine($"il numero binario  è  {numbinario} ");
         }
     }
 }
